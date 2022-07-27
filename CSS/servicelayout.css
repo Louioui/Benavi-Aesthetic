@@ -30,7 +30,6 @@ body{
 }
 .content_container{
     border: solid 1px black;
-    z-index: auto;
     margin: 0px 0px 100px 250px
 }
 .box_one{
