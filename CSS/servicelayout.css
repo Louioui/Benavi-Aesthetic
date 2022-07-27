@@ -23,14 +23,9 @@ body{
     background-image: url("https://dynamicwallpaper.club/landing-vids/1.png");
     padding: 20em;
 }
-.box_container{
-    display: grid;
-    grid-template-columns: auto auto;
-    
+.box_container .box_container2{
+    position:absolute;
 }
- .photos_container {
-    box-sizing: border-box;
-     width: 400px;
-     height: 400px;
-     padding: 10px;
- }
+
+
+
