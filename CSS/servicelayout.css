@@ -23,68 +23,12 @@ body{
     grid-template-columns: auto auto;
     
 }
-.photos_container{
+.photos_container {
     box-sizing: border-box;
-    width: fit-content;
-    height: fit-content;
+    width: 400px;
+    height: 400px;
 }
 .content_container{
-    border: solid 1px black;
-    margin: 0px 0px 100px 250px
+    display: block;
+    border: 2px solid black;
 }
-.box_one{
-   padding: 50px;
-    border: solid 1px black; 
-    height: 400px;
-    width: 400px;
-    margin-top: auto;
-}
-.box_two{
-    padding: 50px;
-    border: solid 1px black;
-    width: 400px;
-    height: 400px;
-    margin-top: auto;
-}
-.box_three{
-    padding: 50px;
-    border: solid 1px black;
-    width: 400px;
-    height: 400px;
-    margin-top: auto;
-}
-.box_four{
-    padding: 50px;
-    border: solid 1px black;
-    width: 400px;
-    height: 400px;
-    margin-top: auto;
-}
-.box_five{
-    padding: 50px;
-     border: solid 1px black; 
-     height: 400px;
-     width:  400px;
-     margin-top: auto;
- }
- .box_six{
-     padding: 50px;
-     border: solid 1px black;
-     width: 400px;
-     height: 400px;
-     margin-top: auto;
- }
- .box_seven{
-     padding: 50px;
-     border: solid 1px black;
-     width: 400px;
-     height:400px;
-     margin-top: auto;
- }
- .box_eight{
-     padding: 50px;
-     border: solid 1px black;
-     width:  400px;
-     height: 400px;
-     margin-top: auto;
- }
