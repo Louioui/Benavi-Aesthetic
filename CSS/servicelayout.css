@@ -5,11 +5,8 @@
     text-decoration: none;
 }
 body{
-    background-color: blanchedalmond;
-}
-.navigation_home{
-    text-align: center;
-    margin-top: 10px;
+    background-color: lavender;
+    padding: 30px;
 }
 
 .navBar_custom {
@@ -18,17 +15,22 @@ body{
     flex-flow: row wrap;
     justify-items: flex-start;
 }
+.navigation_home{ 
+    text-align: center;
+    margin-top: 10px;
+} 
+.background_root{
+    background-image: url("https://dynamicwallpaper.club/landing-vids/1.png");
+    padding: 20em;
+}
 .box_container{
     display: grid;
     grid-template-columns: auto auto;
     
 }
-.photos_container {
+ .photos_container {
     box-sizing: border-box;
-    width: 400px;
-    height: 400px;
-}
-.content_container{
-    display: block;
-    border: 2px solid black;
-}
+     width: 400px;
+     height: 400px;
+     padding: 10px;
+ }
