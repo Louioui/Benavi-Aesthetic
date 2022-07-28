@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
 }
 body{
     background-color: lavender;
-    padding: 30px;
+    padding: 18px;
 }
 
 .navBar_custom {
@@ -20,38 +22,46 @@ body{
     margin-top: 10px;
 } 
 .background_root{
-    background-image: url("https://dynamicwallpaper.club/landing-vids/1.png");
-    padding: 20em;
-}
-.btn_select{
-    width: 30%;
-    height: 20%;
-    margin-left: 68%;
-    margin-top: auto;
+    background-image: url("https://dynamicwallpaper.club/landing-vids/1.png");   
 }
 .box_container >img{
     position:absolute;
-    left: 43%;
+    left: 250px;
 }
 .box_container> div{
-    border: 2px solid black;
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    
+}
+.box_container2{
+    left: 50%;
+    bottom: -68%;
+    position:absolute;
+}
+.box_container2 >img{
+    position:absolute;
+
+}
+.box_container2> div{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen; 
+    margin-left: 155%;
 }
 .box{
     display: grid;
     grid-column: auto auto;
 }
-.box_container2> div{
-    border: 2px solid black;
-    position:absolute;
-    left: 43%;
-    width: 400px;
-    height: 400px;    
-}
 .box2{
     display: grid;
     grid-column: auto auto;
+}
+.btn_select{
+    width: 30%;
+    height: 20%;
+    margin-left: 70%;
+    margin-top: auto;
 }
 
 
